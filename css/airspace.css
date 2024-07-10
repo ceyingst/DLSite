@@ -115,7 +115,7 @@ header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("/img/slider-bg.jpg");
+  background: url("../img/slider-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 30% 50%;
@@ -331,7 +331,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #featurehome .about {
-  background: url("/img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -453,7 +453,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .work {
-  background: url("/img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 50px;
