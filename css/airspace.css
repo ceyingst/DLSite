@@ -131,7 +131,7 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   color: #22251a;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 500;
   position: relative;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -253,7 +253,7 @@ header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 100px 100px;
+  padding: 75px 75px;
 }
 
 
@@ -414,12 +414,12 @@ header .navbar-default .navbar-nav li a:hover {
 
 #teaching {
   padding: 20px 100px 40px 100px;
-  border-bottom: solid light-grey;
+  border-bottom: solid #d2d2cc;
 }
 
 
 #teaching .block {
-  border-bottom: solid light-grey;
+  border-bottom: solid #d2d2cc;
 }
 
 #teaching .block h2 {
@@ -427,7 +427,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 
 #teaching .block li {
-  border-bottom: solid light-grey;
+  border-bottom: solid #d2d2cc;
 }
 
 
@@ -444,7 +444,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 25px;
   text-align: center;
   margin-bottom: 25px;
-  border-bottom: solid lightgray;
+  border-bottom: solid #d2d2cc;
 }
 #portfolio-content .block .portfolio-menu ul {
   display: inline-block;
@@ -514,7 +514,7 @@ header .navbar-default .navbar-nav li a:hover {
   margin: 6px;
   padding-bottom: 40px;
   margin-bottom: 40px;
-  border-bottom: solid lightgrey;
+  border-bottom: solid #d2d2cc;
 
 }
 
@@ -529,6 +529,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #portfolio-content .talk h1 {
+  padding-top: 50px;
   font-size: 35px;
 }
 
@@ -536,6 +537,9 @@ header .navbar-default .navbar-nav li a:hover {
   color: #636363;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: solid #d2d2cc;
 }
 
 #portfolio-content .course {
@@ -556,12 +560,11 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #portfolio-content .block .courses-menu {
-  border-top: solid lightgray;
-  padding-top: 25px;
+  padding-top: 10px;
   padding-bottom: 25px;
   text-align: center;
   margin-bottom: 25px;
-  border-bottom: solid lightgray;
+  border-bottom: solid #d2d2cc;
 }
 #portfolio-content .block .courses-menu ul {
   display: inline-block;
