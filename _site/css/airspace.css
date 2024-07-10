@@ -8,8 +8,11 @@
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
-@import url(//fonts.googleapis.com/css2?family=Lora:400,300,600)
+@import url(//fonts.googleapis.com/css?family=Volkhov:400,400italic);
+@import url(//fonts.googleapis.com/css2?family=Lora:400,300,600);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
+
+
 /* var text-decoration */
 /*--
 	Common Css
@@ -24,15 +27,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
 }
 h2 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 700;
 }
 h3 {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 700;
 }
 p {
   font-size: 15px;
@@ -58,45 +62,51 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
+  font-family: 'Cormorant Garamond', serif;
   color: #666;
 }
 /*--
 	Header Start
 --*/
 header {
-  background: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+
 }
+
 header .navbar {
-  margin-bottom: 20px;
-  border: 0px;
+
+
 }
+
 header .navbar-brand {
-  font-family: 'Lora', serif;
-  font-size: 5em;
-  font-weight: 400;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 6vw;
+  font-weight: 500;
+  color: #22251a !important;
+  position: absolute;
 }
 
 header .navbar-default {
   background: none;
-  color: #000;
   border: 0px;
 }
+
 header .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 20px;
 }
+
 header .navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 10px 26px;
-  font-size: 1em;
+  color: #22251a;
+  padding-left: 26px;
+  font-size: 1.3em;
+  position:relative;
+  font-family: 'Cormorant Garamond', serif;
+
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+
+header .navbar-default .navbar-nav li a:hover {
+  color:  #971d15 !important;
+  font-size: 1.3vw;
 }
 /*---------------------------------------------
 					Index Start
@@ -105,13 +115,14 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("/img/slider-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 30% 50%;
   padding: 200px 0 280px 0;
   position: relative;
 }
+
 #slider:before {
   content: "";
   position: absolute;
@@ -122,7 +133,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  opacity: 0.3;
 }
 #slider .block {
   color: #E3E3E4;
@@ -141,28 +152,48 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+
 }
 /*--
 	wrapper Start
 --*/
 #intro {
-  padding: 20px;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+
+}
+
+#intro .block {
+  width: 90%;
+  height: 100%;
+  float: right;
+  text-align: justify;
+  
+
 }
 #intro .block h2 {
-  padding-top: 35px;
-  padding-left: -20px;
+  color: #22251a;
   line-height: 27px;
   margin: 0;
+  font-size: 25px;
+  text-transform: none;
+  color: #22251a;
 }
+
 #intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
+  color: #22251a ;
+  padding-top: 10px;
+
 }
 #intro .block img {
-  width: 100%;
+  width: 99%;
+  float: left;
 }
 #intro .section-title {
   margin-bottom: 0px;
+  
 }
 #intro .section-title p {
   padding-top: 20px;
@@ -260,6 +291,8 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 100px;
 }
+
+
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
@@ -275,42 +308,38 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 10px 20px;
 }
 
-#sec-feature {
-  background: url("../img/feature2-bg.jpg");
-  background-position: 50% 94px;
-  width: 100%;
-  display: block;
+#featurehome 
+
+{ 
   position: relative;
-  overflow: visible;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
+}
+
+#featurehome:before{
+
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background:#010700;
+  opacity: .5;
+
+}
+
+#featurehome .about {
+  background: url("/img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 1% 100%;
+  text-align: left !important;
 }
-#sec-feature h2 {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-#sec-feature p {
-  color: #8d8f92;
-  margin-bottom: 20px;
-}
-#sec-feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
-}
+
 /*--
 	content Start
 --*/
@@ -403,13 +432,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+
   position: relative;
-  background-attachment: fixed;
+  
 }
+
+
 #global-header:before {
   content: "";
   position: absolute;
@@ -419,22 +447,91 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  background:#010700;
+  opacity: .5;
+
 }
+
+#global-header .work {
+  background: url("/img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 1% 5%;
+
+}
+
+#global-header .talks {
+  background: url("/img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 1% 5%;
+
+
+
+}
+
+#global-header .teaching {
+  background: url("/img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 1% 5%;
+
+
+}
+
+#global-header .home {
+  background: url("/img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 2% 5%;
+  text-align: left !important;
+
+
+}
+
+#global-header .contact {
+  background: url("/img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: relative;
+  background-position: 1% 5%;
+
+}
+    
+
+
 #global-header .block {
-  color: #E3E3E4;
+  color: #eea71e;
   margin: 0 auto;
+}
+
+#global-header .block h1 {
+  font-weight: 300;
+  font-size: 6em;
+  letter-spacing: 15px;
+  margin-top: 0;
+  text-transform: none;
   text-align: center;
 }
-#global-header .block h1 {
-  font-weight: 100;
-  font-size: 5em;
-  letter-spacing: 6px;
-  padding-bottom: 15px;
-  margin-top: 0;
-  text-transform: capitalize;
+
+#global-header .block .about h1 {
+  text-align: left;
+  padding-left: 40px;
+  text-transform: none;
+  letter-spacing: 8px;
+  font-size: 3em;
 }
+
+
 #global-header .block p {
   font-size: 16px;
   font-weight: 300;
@@ -474,7 +571,8 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-content {
   overflow: hidden;
-  padding: 80px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #portfolio-content .block .portfolio-menu {
@@ -490,30 +588,31 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-content .block .portfolio-menu ul li {
   display: inline-block;
   padding: 0px 25px;
-  font-size: 15px;
-  line-height: 40px;
+  font-family: "cormorant garamond", serif;
+  font-size: 18px;
+  line-height: 60px;
   font-weight: 600;
   color: #333333;
   text-transform: capitalize;
   position: relative;
 }
 #portfolio-content .block .portfolio-menu ul .active {
-  color: #655E7A;
+  color: #971d15;
   position: relative;
 }
 #portfolio-content .block .portfolio-menu ul .active:before {
-  content: "\f0d7";
+  content: "\2014";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "roboto", sans-serif;
+  font-weight:100;
   bottom: -18px;
   font-size: 30px;
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 23px;
+  top: 20px;
   margin: 0 auto;
-  color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  color: #971d15;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -521,18 +620,18 @@ font header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 #portfolio-content .block .portfolio-menu ul li:hover:before {
-  content: "\f0d7";
+  content: "\2014";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: "roboto", sans-serif;
+  font-weight: 100;
   bottom: -18px;
   font-size: 30px;
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 24px;
+  top: 20px;
   margin: 0 auto;
-  color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  color: #971d15;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -556,6 +655,10 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #636363;
 }
 
+#portfolio-content .item .book {
+  padding-left: 20px;
+}
+
 #portfolio-content .item ul li img {
   width: 30%;
   height: 30%;
@@ -565,7 +668,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-#portfolio-content .item ul li a {
+#portfolio-content .item ul li .book {
   display: block;
   color: black;
   overflow: auto;
@@ -575,11 +678,16 @@ font header .navbar-default .navbar-nav li a:hover {
   max-width: 100%;
   max-height: 100%;
   position: relative;
-
-
 }
 
-#portfolio-content .item ul li a h2 {
+#portfolio-content .item ul li .book a {
+  font-size: 15px;
+  color: #636363;
+  text-decoration: underline !important;
+}
+
+
+#portfolio-content .item ul li .book h2 {
   font-size: 30px;
   font-style: italic;
   letter-spacing: 1px;
@@ -587,15 +695,14 @@ font header .navbar-default .navbar-nav li a:hover {
 
 
 
-#portfolio-content .item ul li a p {
+#portfolio-content .item ul li .book p {
   font-size: 15px;
   text-align: justify;
-  
 
 }
 
 
-#portfolio-content .item ul li a span {
+#portfolio-content .item ul li .book span {
   font-style: italic;
   font-size: 13px;
   color: #655E7A;
