@@ -65,6 +65,35 @@ a:active {
   font-family: 'Cormorant Garamond', serif;
   color: #666;
 }
+
+/*--
+Back to top button
+--*/
+#myBtn {
+  position: relative;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #22251a; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+
+}
+
+#myBtn:hover {
+  color: #971d15; /* Add a dark-grey background on hover */
+  text-decoration: underline !important;
+}
+
+#button .center {
+  position:relative; 
+  margin-left:-60px;
+  left:50%;
+  width:200px;
+  bottom:10px;
+}
+
 /*--
 	Header Start
 --*/
@@ -89,24 +118,27 @@ header .navbar-brand {
 header .navbar-default {
   background: none;
   border: 0px;
+  position: relative;
 }
 
 header .navbar-default .navbar-nav {
-  padding-top: 20px;
+  padding-left: 26px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 header .navbar-default .navbar-nav li a {
   color: #22251a;
-  padding-left: 26px;
   font-size: 1.3em;
-  position:relative;
+  font-weight: 400;
+  position: relative;
   font-family: 'Cormorant Garamond', serif;
-
 }
 
 header .navbar-default .navbar-nav li a:hover {
   color:  #971d15 !important;
-  font-size: 1.3vw;
+  font-size: 1.4em;
 }
 /*---------------------------------------------
 					Index Start
@@ -161,8 +193,6 @@ header .navbar-default .navbar-nav li a:hover {
   padding-top: 50px;
   padding-right: 40px;
   padding-bottom: 40px;
-
-
 }
 
 #intro .block {
@@ -170,9 +200,8 @@ header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   float: right;
   text-align: justify;
-  
-
 }
+
 #intro .block h2 {
   color: #22251a;
   line-height: 27px;
@@ -185,11 +214,12 @@ header .navbar-default .navbar-nav li a:hover {
 #intro .block p {
   color: #22251a ;
   padding-top: 10px;
-
 }
+
 #intro .block img {
   width: 99%;
   float: left;
+  padding-top: 60px;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -198,76 +228,10 @@ header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+
 /*--
-	service Start
---*/
-#service {
-  text-align: center;
-  padding: 90px 0;
-}
-#service .service-item {
-  padding-bottom: 30px;
-}
-#service .service-item i {
-  font-size: 60px;
-  color: #4A4656;
-}
-#service .service-item h4 {
-  padding-top: 20px;
-  margin: 0;
-  color: #666;
-}
-#service .service-item p {
-  color: #888;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.8;
-}
-/*--
-	call-to-action Start
---*/
-#call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 70px 0px;
-  position: relative;
-  text-align: center;
-  color: #fff;
-}
-#call-to-action:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: #1d192c;
-  opacity: 0.8;
-}
-#call-to-action h2 {
-  padding-bottom: 20px;
-  line-height: 33px;
-  margin: 0;
-  font-size: 30px;
-}
-#call-to-action p {
-  font-size: 14px;
-  line-height: 1.6;
-}
-#call-to-action .btn-call-to-action {
-  padding: 15px 35px;
-  border: none;
-  background-color: #fff;
-  font-size: 15px;
-  color: #333333;
-  margin-top: 30px;
-}
-/*--
-	Feature Start
+	Feature Start - This handles the footers
 --*/
 #feature {
   background: url("../img/bg-marble.jpg");
@@ -331,7 +295,11 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #featurehome .about {
+<<<<<<< HEAD
   background: url("../img/slider-bg.jpg") no-repeat;
+=======
+  background: url("../img/bg-marble.jpg") no-repeat;
+>>>>>>> 53d20a7 (design updates)
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -341,100 +309,11 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 /*--
-	content Start
+	Global header start
 --*/
-#testimonial {
-  padding: 100px 0;
-}
-#testimonial .block h2 {
-  line-height: 27px;
-  color: #5C5C5C;
-  padding-top: 110px;
-}
-#testimonial .block p {
-  padding-top: 50px;
-  color: #7B7B7B;
-}
-#testimonial .counter-box li {
-  width: 50%;
-  float: left;
-  text-align: center;
-  margin: 30px 0 30px;
-}
-#testimonial .counter-box li i {
-  font-size: 35px;
-}
-#testimonial .counter-box li h4 {
-  font-size: 30px;
-  font-weight: bold;
-}
-#testimonial .counter-box li span {
-  color: #555;
-}
-#testimonial .testimonial-carousel {
-  text-align: center;
-  width: 75%;
-  border: 1px solid #DEDEDE;
-  padding: 24px;
-  margin: 0 auto;
-}
-#testimonial .testimonial-carousel img {
-  padding-bottom: 38px;
-}
-#testimonial .testimonial-carousel p {
-  line-height: 28px;
-  font-weight: 300;
-  padding-bottom: 20px;
-}
-#testimonial .testimonial-carousel .user img {
-  padding-bottom: 0px;
-  border-radius: 500px;
-}
-#testimonial .testimonial-carousel .user p {
-  padding-bottom: 0;
-  font-size: 12px;
-  line-height: 20px;
-  color: #353241;
-}
-#testimonial .testimonial-carousel .user p span {
-  display: block;
-  color: #353241;
-  font-weight: 600;
-}
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
-  border: 1px solid #1D1D1D;
-  border-radius: 500px;
-  display: inline-block;
-  height: 10px;
-  margin-right: 15px;
-  width: 10px;
-}
-#testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
-  font-size: 30px;
-  display: inline-block;
-  border: 0px;
-}
-/*--
-	features Start
---*/
-#clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
-}
-/*---------------------------------------------
-					Work Start
------------------------------------------------*/
-/*--
-	Slider-work Start
---*/
-#global-header {
 
+#global-header {
   position: relative;
-  
 }
 
 
@@ -447,8 +326,9 @@ header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background:#010700;
-  opacity: .5;
+  background:rgb(9, 9, 9);
+  opacity: .6;
+  
 
 }
 
@@ -469,9 +349,6 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 50px;
   background-attachment: relative;
   background-position: 1% 5%;
-
-
-
 }
 
 #global-header .teaching {
@@ -481,8 +358,6 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 50px;
   background-attachment: relative;
   background-position: 1% 5%;
-
-
 }
 
 #global-header .home {
@@ -493,8 +368,6 @@ header .navbar-default .navbar-nav li a:hover {
   background-attachment: relative;
   background-position: 2% 5%;
   text-align: left !important;
-
-
 }
 
 #global-header .contact {
@@ -504,19 +377,16 @@ header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 50px;
   background-attachment: relative;
   background-position: 1% 5%;
-
 }
     
-
-
 #global-header .block {
-  color: #eea71e;
+  color: #f9b12b;
   margin: 0 auto;
 }
 
 #global-header .block h1 {
-  font-weight: 300;
-  font-size: 6em;
+  font-weight: 400;
+  font-size: 12vw;
   letter-spacing: 15px;
   margin-top: 0;
   text-transform: none;
@@ -540,7 +410,6 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 /*-- teaching Start
-
 --*/
 
 #teaching {
@@ -553,9 +422,6 @@ header .navbar-default .navbar-nav li a:hover {
   border-bottom: solid light-grey;
 }
 
-
-
-
 #teaching .block h2 {
 }
 
@@ -565,9 +431,8 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 
-
 /*--
-	portfolio-work Start
+	Work Start - for writing, possibly also for talks and teaching?
 --*/
 #portfolio-content {
   overflow: hidden;
@@ -589,8 +454,8 @@ header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 0px 25px;
   font-family: "cormorant garamond", serif;
-  font-size: 18px;
-  line-height: 60px;
+  font-size: 1.3em;
+  line-height: 3em;
   font-weight: 600;
   color: #333333;
   text-transform: capitalize;
@@ -639,7 +504,9 @@ header .navbar-default .navbar-nav li a:hover {
   transition: all 0.4s ease-in-out;
 }
 
-
+#portfolio-content h1 {
+  font-size: 40px;
+}
 
 #portfolio-content .item ul li {
   float: left;
@@ -655,6 +522,108 @@ header .navbar-default .navbar-nav li a:hover {
   color: #636363;
 }
 
+#portfolio-content .talk {
+  color: #010700;
+  padding-left: 250px;
+  padding-right: 200px;
+}
+
+#portfolio-content .talk h1 {
+  font-size: 35px;
+}
+
+#portfolio-content .talk .info {
+  color: #636363;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#portfolio-content .course {
+  color: #010700;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+#portfolio-content .course h1 {
+  font-size: 35px;
+}
+
+#portfolio-content .course .info {
+  color: #636363;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#portfolio-content .block .courses-menu {
+  border-top: solid lightgray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom: solid lightgray;
+}
+#portfolio-content .block .courses-menu ul {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+#portfolio-content .block .courses-menu ul li {
+  display: inline-block;
+  padding: 0px 50px;
+  font-family: "cormorant garamond", serif;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #333333;
+  text-transform: capitalize;
+  position: relative;
+}
+
+#portfolio-content .block .courses-menu ul .active {
+  color: #971d15;
+  position: relative;
+}
+#portfolio-content .block .courses-menu ul .active:before {
+  content: "\2014";
+  position: absolute;
+  font-family: "roboto", sans-serif;
+  font-weight:100;
+  bottom: -18px;
+  font-size: 30px;
+  width: 20px;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  margin: 0 auto;
+  color: #3c6c4c
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#portfolio-content .block .courses-menu ul li:hover:before {
+  content: "\2014";
+  position: absolute;
+  font-family: "roboto", sans-serif;
+  font-weight: 100;
+  bottom: -18px;
+  font-size: 30px;
+  width: 20px;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  margin: 0 auto;
+  color: #3c6c4c
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
+
 #portfolio-content .item .book {
   padding-left: 20px;
 }
@@ -665,6 +634,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
   border: 5px black;
   float:left;
+  position: relative;
 }
 
 
@@ -681,14 +651,15 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #portfolio-content .item ul li .book a {
-  font-size: 15px;
+  font-size: 1em;
   color: #636363;
   text-decoration: underline !important;
 }
 
 
 #portfolio-content .item ul li .book h2 {
-  font-size: 30px;
+  font-size: 40px;
+  font-size: 2em;
   font-style: italic;
   letter-spacing: 1px;
 }
@@ -696,112 +667,37 @@ header .navbar-default .navbar-nav li a:hover {
 
 
 #portfolio-content .item ul li .book p {
-  font-size: 15px;
-  text-align: justify;
+  font-size: 1em;
+  letter-spacing: .5px;
 
 }
-
 
 #portfolio-content .item ul li .book span {
   font-style: italic;
-  font-size: 13px;
+  font-size: 1em;
   color: #655E7A;
-}
-
-
-#portfolio-content .item .overly {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.9);
-  opacity: 0;
-  -webkit-transition: .3s all;
-  -o-transition: .3s all;
-  transition: .3s all;
-  text-align: left;
-}
-#portfolio-content .item .position-center {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  -webkit-transform: translate(0%, 50%);
-  -moz-transform: translate(0%, 50%);
-  -ms-transform: translate(0%, 50%);
-  transform: translate(0%, 50%);
-  -webkit-transition: .5s all;
-  -o-transition: .5s all;
-  transition: .5s all;
 }
 
 #portfolio-content .item .mix {
   display: none;
 }
 
-/*--
-	wrapper-work Start
---*/
-#wrapper-work {
-  overflow: hidden;
-  padding-top: 100px;
+#portfolio-content .contact {
+  padding-left: 22%;
 }
-#wrapper-work ul li {
-  width: 50%;
-  float: left;
-  position: relative;
+
+
+#portfolio-content .contact .block h2 {
+  text-align:left;
+
 }
-#wrapper-work ul li img {
-  width: 100%;
-  height: 100%;
+
+#portfolio-content .contact .block p {
+
+  text-align:justify;
+
 }
-#wrapper-work ul li .items-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  padding-left: 44px;
-  padding-top: 140px;
-}
-#wrapper-work ul li .items-text h2 {
-  padding-bottom: 28px;
-  padding-top: 75px;
-  position: relative;
-}
-#wrapper-work ul li .items-text h2:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 75px;
-  height: 3px;
-  background: #fff;
-}
-#wrapper-work ul li .items-text p {
-  padding-top: 30px;
-  font-size: 16px;
-  line-height: 27px;
-  font-weight: 300;
-  padding-right: 80px;
-}
-/*--
-	features-work Start
---*/
-#features-work {
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-#features-work .block ul li {
-  width: 19%;
-  text-align: center;
-  display: inline-block;
-  padding: 40px 0px;
-}
+
 /*---------------------------------------------
 					Work Close
 -----------------------------------------------*/
@@ -852,109 +748,8 @@ header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
-/*--
-	contact-form Start
---*/
-#contact-form {
-  padding-top: 70px;
-  padding-bottom: 35px;
-}
-#contact-form .block form .form-group {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group .form-control {
-  background: #F6F8FA;
-  height: 60px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-#contact-form .block form .form-group-2 {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group-2 textarea {
-  background: #F6F8FA;
-  height: 135px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-#contact-form .block button {
-  width: 100%;
-  height: 60px;
-  background: #47424C;
-  border: none;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
-/*--
-	wrapper-contact Start
---*/
-.address-block li {
-  margin-bottom: 20px;
-}
-.address-block li i {
-  margin-right: 15px;
-  font-size: 20px;
-  width: 20px;
-}
-.social-icons {
-  margin-top: 40px;
-}
-.social-icons li {
-  display: inline-block;
-  margin: 0 6px;
-}
-.social-icons a {
-  display: inline-block;
-}
-.social-icons i {
-  color: #2C2C2C;
-  margin-right: 25px;
-  font-size: 25px;
-}
-.google-map {
-  position: relative;
-}
-.google-map #map {
-  width: 100%;
-  height: 300px;
-  background-color: #ff432e;
-}
-#contact-box {
-  padding-top: 35px;
-  padding-bottom: 58px;
-}
-#contact-box .block img {
-  width: 100%;
-}
-#contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #000;
-  font-size: 28px;
-  padding-bottom: 30px;
-}
-#contact-box .block p {
-  color: #5C5C5C;
-  display: block;
-}
-/*--
-	features-contact Start
---*/
-#features-contact {
-  padding-top: 50px;
-  padding-bottom: 75px;
-}
-#features-contact .block ul li {
-  width: 19%;
-  text-align: center;
-  display: inline-block;
-  padding: 40px 0px;
-}
+
+
 /*---------------------------------------------
 					Contact Close
 -----------------------------------------------*/

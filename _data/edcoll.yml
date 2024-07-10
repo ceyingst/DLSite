@@ -1,20 +1,20 @@
 - name: The Unfinished Book
   publisher: Oxford University Press, 2021
   description: "TK"
-  image: ../img/portfolio/unfin-book.jpg
+  image: /img/portfolio/unfin-book.jpg
 - name: Cultures of Reading
   publisher: a two-volume special issue of PMLA, co-edited with Evelyne Ender, 2018
   description: 
-  image: ../img/portfolio/cult-reading.jpg
+  image: /img/portfolio/cult-reading.jpg
 - name: "Janeites: Austen’s Disciples and Devotees."
   publisher: Princeton University Press, 2000
   description: "TK"
-  image: ../img/portfolio/janeite.jpg
+  image: /img/portfolio/janeite.jpg
 - name: Cultural Institutions of the Novel
   publisher: co-edited with William Warner <br> Duke University Press, 1996. 
   description: TK
-  image: ../img/portfolio/cult-inst.jpg
+  image: /img/portfolio/cult-inst.jpg
 - name: The Matter of the Archive
   publisher: a special issue of <em>Studies in Romanticism</em>
   description:
-  image: ../img/portfolio/arch-mat.jpg
+  image: /img/portfolio/arch-mat.jpg
