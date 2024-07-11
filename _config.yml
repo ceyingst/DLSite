@@ -15,7 +15,7 @@ keep_files:
 title: Deidre Lynch
 subtitle: "Professor, Harvard"
 url: "http://ceyingst.github.io" # the base hostname & protocol for your site
-baseurl: "/DLSite" # Set this value to "" if you want your site to be root
+#baseurl: "/DLSite" # Set this value to "" if you want your site to be root
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 

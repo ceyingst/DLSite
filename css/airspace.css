@@ -524,8 +524,10 @@ header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-content .talk {
   color: #010700;
-  padding-left: 250px;
-  padding-right: 200px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #portfolio-content .talk h1 {
@@ -535,8 +537,6 @@ header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-content .talk .info {
   color: #636363;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-bottom: 40px;
   margin-bottom: 20px;
   border-bottom: solid #d2d2cc;
@@ -628,16 +628,17 @@ header .navbar-default .navbar-nav li a:hover {
 
 
 #portfolio-content .item .book {
-  padding-left: 20px;
+  margin-left: -20px;
+  padding-right: 10px;
 }
 
 #portfolio-content .item ul li img {
-  width: 30%;
-  height: 30%;
-  padding-top: 20px;
+  width: 80%;
+  height: 80%;
   border: 5px black;
   float:left;
-  position: relative;
+  overflow: auto;
+  padding-top: 20px;
 }
 
 
@@ -645,12 +646,10 @@ header .navbar-default .navbar-nav li a:hover {
   display: block;
   color: black;
   overflow: auto;
-  float: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  max-width: 100%;
-  max-height: 100%;
-  position: relative;
+  float: right;
+  width: 100%;
+  height: 100%;
+
 }
 
 #portfolio-content .item ul li .book a {
@@ -672,6 +671,7 @@ header .navbar-default .navbar-nav li a:hover {
 #portfolio-content .item ul li .book p {
   font-size: 1em;
   letter-spacing: .5px;
+  text-align: justify;
 
 }
 
