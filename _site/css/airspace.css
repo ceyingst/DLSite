@@ -235,7 +235,6 @@ header .navbar-default .navbar-nav li a:hover {
 --*/
 #feature {
   background: url("../img/bg-marble.jpg");
-  background-position: 50% 94px;
   width: 100%;
   display: block;
   position: relative;
@@ -637,7 +636,6 @@ header .navbar-default .navbar-nav li a:hover {
   height: 80%;
   border: 5px black;
   float:left;
-  overflow: auto;
   padding-top: 20px;
 }
 
