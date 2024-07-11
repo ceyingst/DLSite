@@ -120,16 +120,18 @@ permalink: /writing/
 
       {% for article in site.data.public %}
       <li class="mix Public">
+        <div class="col-md-5">
           <div class="img">
             <img src="{{ article.image }}" alt="">
          </div>
-                
+         </div>
+         <div class="col-md-6"> 
         <div class="book">
           <h2 style="font-style:normal; text-transform: none"><q>{{article.name}}</q></h2>
           <p class="pub"><a href="{{ article.url }}" style="text-decoration: underline;">{{article.publisher}}</a></p>
           <p> {{article.description}}</p>
 
-
+</div>
     
                     
         </div>
