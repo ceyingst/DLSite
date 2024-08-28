@@ -1,10 +1,10 @@
 - name: In Praise of Search Tools
   publisher: Public Books
   url: https://www.publicbooks.org/in-praise-of-search-tools/
+  urlname: Read here
   description: "On Dennis Duncan's Index, A History of the: A Bookish Adventure from Medieval Manuscripts to the Digital Age and Craig Robertson's The Filing Cabinet: A Vertical History of Information"
-  image: ../img/portfolio/pb-file.jpg
 - name: Is Handwriting  History?
   publisher: Public Books
+  urlname: Read here
   url: https://www.publicbooks.org/is-handwriting-history/
   description: "On Anne Trubek's The History and Uncertain Future of Handwriting and Aileen Douglas' Work in Hand: Script, Print, and Writing, 1690-1840"
-  image: ../img/portfolio/pb-handw.jpg

@@ -13,7 +13,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
 
 
-/* var text-decoration */
 /*--
 	Common Css
 --*/
@@ -37,6 +36,7 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 700;
+
 }
 p {
   font-size: 15px;
@@ -66,50 +66,23 @@ a:active {
   color: #666;
 }
 
-/*--
-Back to top button
---*/
-#myBtn {
-  position: relative;
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: #22251a; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 5px; /* Rounded corners */
-
-}
-
-#myBtn:hover {
-  color: #971d15; /* Add a dark-grey background on hover */
-  text-decoration: underline !important;
-}
-
-#button .center {
-  position:relative; 
-  margin-left:-60px;
-  left:50%;
-  width:200px;
-  bottom:10px;
-}
 
 /*--
 	Header Start
 --*/
 header {
-  padding-top: 60px;
+  padding-top: 50px;
 
 }
 
 header .navbar {
-
-
+font-family: 'cormorant Garamond', sans-serif;
 }
+
 
 header .navbar-brand {
   font-family: 'Cormorant Garamond', sans-serif;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 500;
   color: #22251a !important;
   position: absolute;
@@ -138,7 +111,6 @@ header .navbar-default .navbar-nav li a {
 
 header .navbar-default .navbar-nav li a:hover {
   color:  #971d15 !important;
-  font-size: 1.4em;
 }
 /*---------------------------------------------
 					Index Start
@@ -294,11 +266,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #featurehome .about {
-<<<<<<< HEAD
-  background: url("../img/slider-bg.jpg") no-repeat;
-=======
   background: url("../img/bg-marble.jpg") no-repeat;
->>>>>>> 53d20a7 (design updates)
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -421,9 +389,6 @@ header .navbar-default .navbar-nav li a:hover {
   border-bottom: solid #d2d2cc;
 }
 
-#teaching .block h2 {
-}
-
 
 #teaching .block li {
   border-bottom: solid #d2d2cc;
@@ -505,6 +470,13 @@ header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-content h1 {
   font-size: 40px;
+  text-align: center;
+}
+
+#portfolio-content h3 {
+  font-size: 20px;
+  padding-left: 1.5vw;
+
 }
 
 #portfolio-content .item ul li {
@@ -520,6 +492,11 @@ header .navbar-default .navbar-nav li a:hover {
 #portfolio-content .item .pub {
   color: #636363;
 }
+
+#portfolio-content .item .related {
+  padding-left: 3vw;
+}
+
 
 #portfolio-content .talk {
   color: #010700;
@@ -597,13 +574,14 @@ header .navbar-default .navbar-nav li a:hover {
   right: 0px;
   top: 20px;
   margin: 0 auto;
-  color: #3c6c4c
+  color: #3c6c4c;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
 #portfolio-content .block .courses-menu ul li:hover:before {
   content: "\2014";
   position: absolute;
@@ -616,7 +594,7 @@ header .navbar-default .navbar-nav li a:hover {
   right: 0px;
   top: 20px;
   margin: 0 auto;
-  color: #3c6c4c
+  color: #3c6c4c;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -806,4 +784,32 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+/*--
+Back to top button
+--*/
+#myBtn {
+  position: relative;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #22251a; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+
+}
+
+#myBtn:hover {
+  color: #971d15; /* Add a dark-grey background on hover */
+  text-decoration: underline !important;
+}
+
+#button .center {
+  position:relative; 
+  margin-left:-60px;
+  left:50%;
+  width:200px;
+  bottom:10px;
 }

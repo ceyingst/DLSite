@@ -32,7 +32,7 @@ permalink: /writing/
               <li class="filter" data-filter=".Books">Books</li>
               <li class="filter" data-filter=".Edited">Edited Books & Journal Issues</li>
               <li class="filter" data-filter=".EdAnth">Editions & Anthologies</li>
-              <li class="filter" data-filter=".Articles">Articles & Chapters</li>
+              <li class="filter" data-filter=".Articles">Selected Articles & Chapters</li>
               <li class="filter" data-filter=".Public">Public Facing</li>
            
             </ul>
@@ -74,8 +74,9 @@ permalink: /writing/
         <div class="col-md-6">
         <div class="book">
           <h2>{{coll.name}}</h2>
-          <p class="pub">{{coll.publisher}}</p>
+          <p class="pub">{{coll.publisher}} | <a href="{{ coll.url }}" style="text-decoration: underline;">{{coll.urlname}}</a></p>
           <p>{{coll.description}}</p>
+          
         </div>           
         </div>
         {% endfor %}
@@ -94,8 +95,9 @@ permalink: /writing/
          <div class="col-md-6">
         <div class="book">
           <h2>{{edition.name}}</h2>
-          <p class="pub">{{edition.publisher}}</p>
-          <p> {{edition.description}}</p>
+          <p class="pub">{{edition.publisher}} | <a href="{{ edition.url }}" style="text-decoration: underline;">{{edition.urlname}}</a></p>
+          <p>{{edition.description}}</p>
+        
         </div>      
         </div>
    
@@ -110,7 +112,7 @@ permalink: /writing/
                 
         <div class="book">
           <h2 style="font-style:normal; text-transform: none">{{article.name}}</h2>
-          <p class="pub"> {{article.publisher}} | <a href="{{ article.url }}" style="text-decoration: underline;">Link</a></p>
+          <p class="pub"> {{article.publisher}} | <a href="{{ article.url }}" style="text-decoration: underline;">{{article.urlname}}</a></p>
           <p>{{article.description}}</p>
                     
         </div>
@@ -120,21 +122,15 @@ permalink: /writing/
 
       {% for article in site.data.public %}
       <li class="mix Public">
-        <div class="col-md-5">
-          <div class="img">
-            <img src="{{ article.image }}" alt="">
-         </div>
-         </div>
-         <div class="col-md-6"> 
         <div class="book">
           <h2 style="font-style:normal; text-transform: none"><q>{{article.name}}</q></h2>
-          <p class="pub"><a href="{{ article.url }}" style="text-decoration: underline;">{{article.publisher}}</a></p>
+          <p class="pub"> {{article.publisher}} | <a href="{{ article.url }}" style="text-decoration: underline;">{{article.urlname}}</a></p>
           <p> {{article.description}}</p>
 
 </div>
     
                     
-        </div>
+      
    
         {% endfor %}
       
@@ -147,6 +143,13 @@ permalink: /writing/
         <h2 style="font-style:normal; text-transform: none">{{project.name}}</h2>
         <p class="pub">{{project.publisher}}</p>
         <p class="pub">{{project.description}}</p>
+        <h3 style>Book manuscript in progress. For recent related publications, see:</h3>
+        <br>
+        <div class="related">
+        <p><a href="{{ project.relurl1 }}" style="text-decoration: underline;">{{project.relname1}}</a> {{project.relpub1}}</p>
+        <br>
+        <p><a href="{{ project.relurl2 }}" style="text-decoration: underline;">{{project.relname2}}</a> {{project.relpub2}}</p>
+        </div>
         
     
       </div>
