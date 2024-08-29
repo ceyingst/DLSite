@@ -11,10 +11,10 @@ The chapters span a terrain that extends from the earliest surviving writings of
   url: https://the-rambling.com/category/issue-11/
   urlname: Publisher's Site
   image: ../img/portfolio/clarissa_lockdown.jpg
-
+  description: with contributions by Yoon Sun Lee, Stuart Burrows, Talia Schaffer, Lauren Kopajtic, Alexander Creighton, Bailey Sincox, Ramie Targoff, Amy Hollywood, Susan Howe, Thomas Leonard-Roy, and Wendy Anne Lee
 - name: Cultures of Reading
   publisher: a two-volume special issue of <em>PMLA</em>, co-edited with Evelyne Ender, 2018
-  description: 
+  description: featuring articles by James A.W. Heffernan, Martin Eisner, Tristram Wolff, Adam Reed, Andrew M. Stauffer, Laura E. Helton, Michaela Bronstein, Hansun Hsiung, B. Venkat Mani, Samuel J. Spinner, William G. Acree, Jr., WAng He, Wen Jin, J. Daniel Elam, Roar Lishaugen, Ji&rcaron;ina &Scaron;mejkalov&aacute, Michael Allan, Emily Apter, Yi-Ping Ong, Beth Blum, Kathryne Bevilacqua, Whitney Trettien, Mike Chasar, Barbara Hochman, Margaret E. Russett, Benjamin Mangrum, N. Katherine Hayles, Amy Hollywood, James Curley-Egan, Jonathan Sachs and Andrew Piper
   url: https://www.cambridge.org/core/journals/pmla/issue/807C3E1946FE5827D18287BDD1E6BDED
   urlname: Publisher's Site 
   image: ../img/portfolio/cult-reading.jpg
@@ -42,6 +42,7 @@ The contributors are Susan Z. Andrade, Lauren Berlant, Homer Brown, Michelle Bur
 - name: The Matter of the Archive
   publisher: a special issue of <em>Studies in Romanticism</em>
   description:
-  url: https://muse.jhu.edu/journal/754
+  url: https://muse.jhu.edu/issue/41306
   urlname: Journal Site
   image: ../img/portfolio/arch-mat.jpg
+  description: featuring articles by Timothy Campbell, Maria Zytaruk, Jonathan Senchyne, and Sophie Thomas
