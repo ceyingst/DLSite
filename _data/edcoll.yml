@@ -6,8 +6,14 @@ The chapters span a terrain that extends from the earliest surviving writings of
   image: ../img/portfolio/unfin-book.jpg
   url: https://global.oup.com/academic/product/the-unfinished-book-9780198830801
   urlname: Publisher's Site
+- name: Clarissa in Lockdown
+  publisher: <em>The Rambling</em> volume 11, co-edited with Yoon Sun Lee
+  url: https://the-rambling.com/category/issue-11/
+  urlname: Publisher's Site
+  image: ../img/portfolio/clarissa_lockdown.jpg
+
 - name: Cultures of Reading
-  publisher: a two-volume special issue of PMLA, co-edited with Evelyne Ender, 2018
+  publisher: a two-volume special issue of <em>PMLA</em>, co-edited with Evelyne Ender, 2018
   description: 
   url: https://www.cambridge.org/core/journals/pmla/issue/807C3E1946FE5827D18287BDD1E6BDED
   urlname: Publisher's Site 
