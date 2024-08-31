@@ -18,6 +18,13 @@ The chapters span a terrain that extends from the earliest surviving writings of
   url: https://www.cambridge.org/core/journals/pmla/issue/807C3E1946FE5827D18287BDD1E6BDED
   urlname: Publisher's Site 
   image: ../img/portfolio/cult-reading.jpg
+- name: The Matter of the Archive
+  publisher: a special issue of <em>Studies in Romanticism</em>
+  description:
+  url: https://muse.jhu.edu/issue/41306
+  urlname: Journal Site
+  image: ../img/portfolio/arch-mat.jpg
+  description: featuring articles by Timothy Campbell, Maria Zytaruk, Jonathan Senchyne, and Sophie Thomas
 - name: "Janeites: Austen’s Disciples and Devotees."
   publisher: Princeton University Press, 2000
   url: https://press.princeton.edu/books/paperback/9780691050065/janeites
@@ -39,10 +46,3 @@ The contributors are Barbara M. Benedict, Mary A. Favret, Susan Fraiman, William
 The essays in <em>Cultural Institutions of the Novel</em> find new ways to analyze how a genre notorious for its aesthetic unruliness has become institutionalized—defined, legitimated, and equipped with a canon. With a particular focus on the status of novels as commodities, their mediation of national cultures, and their role in transnational exchange, these pieces range from the seventeenth century to the present and examine the forms and histories of the novel in England, Nigeria, Japan, France, New Zealand, Canada, and the United States. Works by Jane Austen, Natsume Sôseki, Gabriel García Márquez, Buchi Emecheta, and Toni Morrison are among those explored as <em>Cultural Institutions of the Novel</em> investigates how theories of “the” novel and disputes about which narratives count as novels shape social struggles and are implicated in contests over cultural identity and authority.
 The contributors are Susan Z. Andrade, Lauren Berlant, Homer Brown, Michelle Burnham, James A. Fujii, Nancy Glazener, Dane Johnson, Lisa Lowe, Deidre Lynch, Jann Matlock, Dorothea von Mücke, Bridget Orr, Clifford Siskin, Katie Trumpener, William B. Warner"
   image: ../img/portfolio/cult-inst.jpg
-- name: The Matter of the Archive
-  publisher: a special issue of <em>Studies in Romanticism</em>
-  description:
-  url: https://muse.jhu.edu/issue/41306
-  urlname: Journal Site
-  image: ../img/portfolio/arch-mat.jpg
-  description: featuring articles by Timothy Campbell, Maria Zytaruk, Jonathan Senchyne, and Sophie Thomas
