@@ -2,34 +2,19 @@
   publisher: Public Books
   url: https://www.publicbooks.org/in-praise-of-search-tools/
   urlname: Read
-  description: "On Dennis Duncan's Index, A History of the: A Bookish Adventure from Medieval Manuscripts to the Digital Age and Craig Robertson's The Filing Cabinet: A Vertical History of Information"
+  description: "On Dennis Duncan's <em>Index, A History of the: A Bookish Adventure from Medieval Manuscripts to the Digital Age</em> and Craig Robertson's <em>The Filing Cabinet: A Vertical History of Information</em>"
 - name: Is Handwriting  History?
   publisher: Public Books
   urlname: Read
   url: https://www.publicbooks.org/is-handwriting-history/
-  description: "On Anne Trubek's The History and Uncertain Future of Handwriting and Aileen Douglas' Work in Hand: Script, Print, and Writing, 1690-1840"
-- name: 'Narrative, Database, Archive: A Discussion with Tom Comitta and Deidre Lynch'
-  publisher: <em>Novel Dialogue</em> (podcast)
-  urlname: Listen
-  url: https://noveldialogue.org/2023/11/02/6-3-narrative-database-archive-a-discussion-with-tom-comitta-and-deidre-lynch-av/
-  description: Interview with Tom Comitta, author of <em>The Nature Book</em> (2023)
+  description: "On Anne Trubek's <em<The History and Uncertain Future of Handwriting</em> and Aileen Douglas' <em>Work in Hand: Script, Print, and Writing, 1690-1840</em>"
 - name: Teaching <em><em>Frankenstein </em></em>at the Flying University of Ukrainian Students.
   publisher: <em>Los Angeles Review of Books</em>
   urlname: Read
   url: https://lareviewofbooks.org/article/teaching-frankenstein-at-the-flying-university-for-ukrainian-students
   description:
-- name: Ali Smith Now.
-  publisher: <em>Pod45</em> (podcast)
-  urlname: Listen
-  url: https://post45.org/2022/11/pod45-episode-2-and-3/
-  description:
-- name: The History of Homemade Books
-  publisher: <em>How To Read</em> (podcast)
-  urlname: Listen
-  url: https://www.howtoreadpodcast.com/deidre-lynch-history-homemade-books/
-  description: Interview by Milan Terlunen
 - name: Transcript of <em>Poems, by John Keats</em>
-  publisher: Reve Romantic Europe (blog)
+  publisher: R&ecirc;ve Romantic Europe (blog)
   urlname: Read
   url: http://www.euromanticism.org/transcript-of-poems-by-john-keats/#more-872
 

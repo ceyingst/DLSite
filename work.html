@@ -28,12 +28,12 @@ permalink: /writing/
           <div class="portfolio-menu">
             <ul>
               <li class="filter" data-filter="all">All</li>
-              <li class="filter" data-filter=".Current">Current Projects</li>
+              <li class="filter" data-filter=".Current" id="current-filter">Current Projects</li>
               <li class="filter" data-filter=".Books">Books</li>
               <li class="filter" data-filter=".Edited">Edited Collections</li>
               <li class="filter" data-filter=".EdAnth">Editions, Anthologies & Reference</li>
               <li class="filter" data-filter=".Articles">Recent Articles & Chapters</li>
-              <li class="filter" data-filter=".Public">Public Facing</li>
+              <li class="filter" data-filter=".Public">Public-Facing Writing</li>
            
             </ul>
           </div>
@@ -135,22 +135,26 @@ permalink: /writing/
         {% endfor %}
       
       </li>
+
+
       {% for project in site.data.current %}
-      <li class="mix Current">
+      <li class="mix Current" id="current-filter">
  
               
-      <div class="book">
+      <div class="book" id="current-filter">
         <h2 style="font-style:normal; text-transform: none">{{project.name}}</h2>
-        <p class="pub">{{project.publisher}}</p>
-        <p class="pub">{{project.description}}</p>
-        <h3 style>Book manuscript in progress. For recent related publications, see:</h3>
-        <br>
+        <p class="pub" id="current-filter">{{project.publisher}} </p>
+        <p>{{project.description}}</p>
+      
+        <p>{{project.reldes1}}</p>
         <div class="related">
+      
         <p><a href="{{ project.relurl1 }}" style="text-decoration: underline;">{{project.relname1}}</a> {{project.relpub1}}</p>
-        <br>
         <p><a href="{{ project.relurl2 }}" style="text-decoration: underline;">{{project.relname2}}</a> {{project.relpub2}}</p>
-        <br>
-        <p><a href="{{ project.relurl3 }}" style="text-decoration: underline;">{{project.relname3}},</a> {{project.relpub3}}</p>
+       </div>
+        <p>{{project.reldes2}}</p>
+        <div class="related">
+        <p><a href="{{ project.relurl3 }}" style="text-decoration: underline;">{{project.relname3}}</a> {{project.relpub3}}</p>
         </div>
         
     
