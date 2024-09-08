@@ -82,7 +82,7 @@ font-family: 'cormorant Garamond', sans-serif;
 
 header .navbar-brand {
   font-family: 'Cormorant Garamond', sans-serif;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 500;
   color: #22251a !important;
   position: absolute;
@@ -223,7 +223,6 @@ header .navbar-default .navbar-nav li a:hover {
   min-width: 100%;
   max-width: 100%;
   display: block;
-
   overflow: visible;
   background-attachment: fixed;
   background-repeat: no-repeat;
