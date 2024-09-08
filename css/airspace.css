@@ -223,8 +223,10 @@ header .navbar-default .navbar-nav li a:hover {
 #feature {
   background: url("../img/bg-marble.jpg");
   width: 100%;
+  max-width: 100%;
   display: block;
   position: relative;
+  overflow: visible;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
