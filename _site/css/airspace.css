@@ -222,6 +222,10 @@ header .navbar-default .navbar-nav li a:hover {
   padding: 0;
 }
 
+#feature .block {
+  margin: 0;
+}
+
 #feature .footerimage {
   background: url("../img/bg-marble.jpg") no-repeat;
   background-size: cover;
