@@ -220,8 +220,7 @@ header .navbar-default .navbar-nav li a:hover {
 --*/
 #feature {
   background: url("../img/bg-marble.jpg") no-repeat;
-  background-size: 100% auto;
-  min-width: 100%;
+  background-size: cover;
   background-attachment: fixed;
   padding: 74px 0 75px 0;
 }
