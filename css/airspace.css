@@ -228,52 +228,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 
-#feature h2 {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-#feature p {
-  color: #8d8f92;
-  margin-bottom: 20px;
-}
-#feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
-}
 
-#featurehome 
-
-{ 
-  position: relative;
-
-}
-
-#featurehome:before{
-
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background:#010700;
-  opacity: .5;
-
-}
-
-#featurehome .about {
-  background: url("../img/bg-marble.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background-attachment: relative;
-  background-position: 1% 100%;
-  text-align: left !important;
-}
 
 /*--
 	Global header start
