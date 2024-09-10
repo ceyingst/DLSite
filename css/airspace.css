@@ -219,10 +219,10 @@ header .navbar-default .navbar-nav li a:hover {
 	Feature Start - This handles the footers
 --*/
 #feature {
-  background: url("../img/bg-marble.jpg");
+  background: url("../img/bg-marble.jpg") no-repeat;
   background-size: cover;
   min-width: 100%;
-  background-attachment: fixed;
+  background-attachment: relative;
   padding: 8vw 0 8vw 0;
 }
 
