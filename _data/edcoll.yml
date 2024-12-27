@@ -4,6 +4,7 @@
 <br> <br>
 The chapters span a terrain that extends from the earliest surviving writings of the Indus Valley to Cicero's 1st-century B.C.E. library to the latest videogames. Some model new ways of thinking about the form, edges, and boundaries of the book as they demonstrate how seldom the book's history as a material object is terminated at the moment of its manufacture. Other chapters highlight the provisionality that makes the book's conceptual boundaries fuzzy, unfinished, and variable; many seek to overturn triumphalist histories that recount the story of the book as though it were Western and white. Overall, this collection launches a new generation of scholarship as it introduces provocative new approaches about the nature, place, and time of books."
   image: ../img/portfolio/unfin-book.jpg
+  alt: book cover for The Unfinished Book
   url: https://global.oup.com/academic/product/the-unfinished-book-9780198830801
   urlname: Publisher's Site
 - name: Clarissa in Lockdown
@@ -18,6 +19,7 @@ The chapters span a terrain that extends from the earliest surviving writings of
   url: https://www.cambridge.org/core/journals/pmla/issue/807C3E1946FE5827D18287BDD1E6BDED
   urlname: Publisher's Site 
   image: ../img/portfolio/cult-reading.jpg
+  alt: 
 - name: The Matter of the Archive
   publisher: a special issue of <em>Studies in Romanticism</em>
   description:
