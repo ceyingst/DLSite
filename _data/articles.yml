@@ -1,3 +1,15 @@
+- name: "<q>Jane Austen</q>"
+  publisher: "In <em>Elizabeth Bowen in Context</em>, ed. Allan Hepburn. Cambridge: Cambridge University Press (2026), 117-126"
+  url: https://www.cambridge.org/core/books/elizabeth-bowen-in-context/jane-austen/D50F4A5D3998B16F39E92D0D2AFEC1C0?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark
+  urlname: Chapter Link
+- name: "<q>Ali Smith and the Unfinished Book: Novels, Middles, and Serialization in an Electronic Age</q>"
+  publisher: "In <em>To Be Continued: Forms of Narrative Continuation</em>, ed. Ulla Haselstein and Florian Sedlmeier. Berlin: De Gruyter (2026), 197-219”
+  url: https://www.degruyterbrill.com/document/doi/10.1515/9783111705651-010/html
+  urlname: Chapter Link
+- name: "<q>Believing in Novels: Hoax, Hocus, and the Fictionality of the Gothic</q>"
+  publisher: "<em>Novel: A Forum on Fiction</em> vol. 58, no. 3 (2025): 361-374."
+  url: https://doi.org/10.1215/00295132-12157228
+  urlname: Article Link
 - name: "<q>Charles Lamb’s Pen-Pushing: Books, Authorship, and the Writer of Autographs</q>"
   publisher: "<em>Representations</em> vol. 170, no. 1 (2025): 1–26."
   url: https://online.ucpress.edu/representations/article-abstract/170/1/1/210546/Charles-Lamb-s-Pen-PushingBooks-Authorship-and-the?redirectedFrom=fulltext
