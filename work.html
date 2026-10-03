@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Catalogues
-permalink: /catalogues/
+title: Writing
+permalink: /writing/
 ---
 
 <!-- Slider Start -->
@@ -11,7 +11,7 @@ permalink: /catalogues/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Catalogues</h1>
+          <h1>Writing</h1>
         </div>
       </div>
     </div>
@@ -19,30 +19,33 @@ permalink: /catalogues/
 </div>
 </section>
 
-<!-- Catalogue List Start -->
-<section id="Catalogue-content">
+<!-- Portfolio Start -->
+<section id="portfolio-content">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="block">
-          <div class="Catalogue-menu">
+          <div class="portfolio-menu">
             <ul>
               <li class="filter" data-filter="all">All</li>
-              <li class="filter" data-filter=".C_Tyus">Charles Tyus</li>
-              <li class="filter" data-filter=".S_Tyus">Sarah Tyus-Passinger</li>
-              <li class="filter" data-filter=".T_Pass1">Thomas Passinger</li>
-            
+              <li class="filter" data-filter=".Current" id="current-filter">Current Projects</li>
+              <li class="filter" data-filter=".Books">Books</li>
+              <li class="filter" data-filter=".Edited">Edited Collections</li>
+              <li class="filter" data-filter=".EdAnth">Editions, Anthologies & Reference</li>
+              <li class="filter" data-filter=".Articles">Recent Articles & Chapters</li>
+              <li class="filter" data-filter=".Public">Public-Facing Writing</li>
+           
             </ul>
           </div>
 
   <div class="item">
     <ul id="portfolio-contant-active">
-      {% for catalogue in site.data.C_Tyus %}
+      {% for book in site.data.books %}
       
-      <li class="mix C_Tyus">
+      <li class="mix Books">
         <div class="col-md-5">
           <div class="img">
-            <img src="{{ C_Tyus.image }}" alt="{{ C_Tyus.alt }}">
+            <img src="{{ book.image }}" alt="{{ book.alt }}">
          </div>
          </div>
                 
